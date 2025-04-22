@@ -1,9 +1,8 @@
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -15,7 +14,28 @@ module.exports = {
         card: '#1E293B', // slate-800
         border: '#334155', // slate-700
       },
+      animation: {
+        'slide-in-out': 'slide-in-out 1.2s ease-in-out infinite alternate',
+        fadeInUp: 'fadeInUp 0.8s ease-out forwards', // ✅ added this
+      },
+      keyframes: {
+        'slide-in-out': {
+          '0%': { transform: 'translateX(-100%)', opacity: 0 },
+          '50%': { transform: 'translateX(0%)', opacity: 1 },
+          '100%': { transform: 'translateX(100%)', opacity: 0 },
+        },
+        fadeInUp: { // ✅ added this
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(20px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
+      },
     },
   },
   plugins: [],
-}
+};
