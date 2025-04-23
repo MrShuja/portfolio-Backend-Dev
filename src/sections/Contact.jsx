@@ -9,6 +9,8 @@ import {
     Send,
   } from "lucide-react";
   import { contactContent } from "../data/contents.js";
+  import { animateBottomBorder } from "./animations/AnimateBottomBorder.js";
+import { useEffect, useRef } from "react";
   
   const iconMap = {
     LinkedIn: <Linkedin />,
@@ -19,12 +21,30 @@ import {
   };
   
   export default function Contact() {
+     const headingRef = useRef(null);
+      const scrollRef = useRef(null);
+    
+      useEffect(() => {
+        if (headingRef.current) animateBottomBorder(headingRef.current);
+        const interval = setInterval(() => {
+          if (scrollRef.current) {
+            scrollRef.current.scrollLeft += 320;
+            if (
+              scrollRef.current.scrollLeft + scrollRef.current.offsetWidth >=
+              scrollRef.current.scrollWidth
+            ) {
+              scrollRef.current.scrollLeft = 0;
+            }
+          }
+        }, 4000);
+    
+        return () => clearInterval(interval);
+      }, []);
     return (
-      <section id="contact" className="bg-background py-16 text-textPrimary min-h-[60vh]">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-12 relative inline-block">
+      <section id="contact" className="bg-background py-16 text-textPrimary min-h-[60vh] border-b border-border">
+        <div className="container mx-auto px-4 text-center" ref={scrollRef}>
+          <h2 className="text-4xl font-bold mb-12 relative inline-block" ref={headingRef}>
             <span className="relative z-10">Get In Touch</span>
-            <span className="absolute left-0 bottom-0 w-full h-1 bg-accent rounded-full z-0"></span>
           </h2>
   
           <div className="max-w-2xl mx-auto space-y-6 text-left">

@@ -25,7 +25,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <section id="testimonials" className="bg-background py-16 text-textPrimary min-h-[90vh]">
+    <section id="testimonials" className="bg-background py-16 text-textPrimary min-h-[90vh] border-b border-border">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold mb-12 relative inline-block" ref={headingRef}>
           <span className="relative z-10">What People Say</span>

@@ -14,7 +14,7 @@ export default function About() {
   }, []);
 
   return (
-    <section id="about" className="bg-background text-textPrimary py-16 px-4" ref={sectionRef}>
+    <section id="about" className="bg-background text-textPrimary py-16 px-4 border-b border-border" ref={sectionRef}>
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h2 className="text-3xl font-bold mb-2 relative inline-block" ref={headingRef}>{aboutContent.heading}</h2>

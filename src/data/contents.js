@@ -13,7 +13,7 @@ export const headerContent = {
     heading: "Hi, I'm Shuja.",
     description:
       "I'm a backend developer who specializes in building robust APIs and database systems using Node.js, Express.js, and MySQL. I focus on writing clean, secure, and scalable code.",
-    skills: ["Node.js", "Express.js", "MySQL", "RESTful APIs", "MySQL Workbench"],
+    skills: ["Node.js", "Express.js", "MySQL", "RESTful APIs", "MySQL, MYSQL Workbench"],
     projectsLink: "#portfolio",
     whatsappNumber: "+923450583043",
   };
@@ -21,7 +21,7 @@ export const headerContent = {
   export const aboutContent = {
     heading: "About Me",
     description:
-      "I’m a backend developer with hands-on experience in building RESTful APIs using Node.js and Express.js. I work with MySQL databases and tools like MySQL Workbench to design, query, and optimize database systems. I am passionate about clean code, efficient performance, and scalable backend logic.",
+      "I’m a backend developer with good commands in building RESTful APIs using Node.js and Express.js. I work with MySQL databases and tools like MySQL Workbench to design, query, and optimize database systems. I am passionate about clean code, efficient performance, and scalable backend logic.",
     focus: [
       "Designing scalable REST APIs",
       "Database modeling and schema optimization",
@@ -33,7 +33,7 @@ export const headerContent = {
   export const portfolioContent = [
     {
       title: 'Blog Website',
-      description: 'A responsive blog site built with React, Tailwind CSS, and a static content system.',
+      description: 'A responsive blog site built with React, Tailwind CSS, and a backend with node.js, express.js and mysql database.',
       repo: 'https://github.com/yourusername/blog-website',
     },
     {
@@ -67,21 +67,21 @@ export const headerContent = {
       repo: 'https://github.com/yourusername/weather-app',
     },
     {
-      title: 'Student API',
-      description: 'A simple backend API for managing students using Node.js and MySQL.',
+      title: 'Channels API',
+      description: 'A simple backend API for managing Tv channels using Node.js and MySQL.',
       repo: 'https://github.com/yourusername/student-api',
     },
   ];
   // contents.js
 
 export const contactContent = {
-  email: "your.email@example.com",
+  email: "shujawali15201@gmail.com",
   whatsappNumber: "+923450583043",
   socialLinks: [
-    { name: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
-    { name: "GitHub", url: "https://github.com/yourusername" },
+    { name: "LinkedIn", url: "https://linkedin.com/in/shuja-wali" },
+    { name: "GitHub", url: "https://github.com/MrShuja" },
     { name: "Twitter", url: "https://twitter.com/yourusername" },
-    { name: "Facebook", url: "https://facebook.com/yourusername" },
+    { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61573981574322" },
     { name: "Instagram", url: "https://instagram.com/yourusername" },
   ],
 };
@@ -103,16 +103,16 @@ export const footerContent = {
     {
       title: "Social",
       links: [
-        { name: "LinkedIn", href: "https://linkedin.com/in/yourusername" },
-        { name: "GitHub", href: "https://github.com/yourusername" },
-        { name: "Twitter", href: "https://twitter.com/yourusername" },
+        { name: "LinkedIn", href: "https://linkedin.com/in/shuja-wali" },
+        { name: "GitHub", href: "https://github.com/MrShuja" },
+        { name: "Facebook", href: "https://www.facebook.com/profile.php?id=61573981574322" },
         { name: "Instagram", href: "https://instagram.com/yourusername" },
       ],
     },
     {
       title: "Contact",
       links: [
-        { name: "Email", href: "mailto:your.email@example.com" },
+        { name: "Email", href: "mailto:shujawali15201@gmail.com.com" },
         { name: "WhatsApp", href: "https://wa.me/923450583043" },
       ],
     },
