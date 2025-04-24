@@ -34,7 +34,7 @@ export const headerContent = {
     {
       title: 'Blog Website',
       description: 'A responsive blog site built with React, Tailwind CSS, and a backend with node.js, express.js and mysql database.',
-      repo: 'https://github.com/yourusername/blog-website',
+      repo: 'https://github.com/MrShuja/Blog-website.git',
     },
     {
       title: 'PDF Master Tool',
@@ -44,22 +44,22 @@ export const headerContent = {
     {
       title: 'Portfolio Website',
       description: 'My own responsive portfolio built using React and animated scroll effects.',
-      repo: 'https://github.com/yourusername/portfolio-site',
+      repo: 'https://github.com/MrShuja/portfolio-Backend-Dev.git',
     },
     {
       title: 'Todo App with Auth',
       description: 'A todo app with user authentication using Node.js, Express, and JWT.',
-      repo: 'https://github.com/yourusername/todo-auth',
+      repo: 'https://github.com/MrShuja/Todo-app.git',
     },
     {
       title: 'Chitral Adventure',
       description: 'A blog and tourism site for Chitral built with dynamic React components.',
-      repo: 'https://github.com/yourusername/chitral-adventure',
+      repo: 'https://github.com/MrShuja/chitral-adventure.git',
     },
     {
       title: 'Admin Dashboard',
       description: 'An interactive admin dashboard with charts, metrics, and data cards.',
-      repo: 'https://github.com/yourusername/admin-dashboard',
+      repo: 'https://github.com/MrShuja/Admin-Dashboard.git',
     },
     {
       title: 'Weather App',
@@ -69,7 +69,7 @@ export const headerContent = {
     {
       title: 'Channels API',
       description: 'A simple backend API for managing Tv channels using Node.js and MySQL.',
-      repo: 'https://github.com/yourusername/student-api',
+      repo: 'https://github.com/MrShuja/channelApi.git',
     },
   ];
   // contents.js
